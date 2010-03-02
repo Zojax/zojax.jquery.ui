@@ -1,0 +1,24 @@
+<configure
+   xmlns="http://namespaces.zope.org/zope"
+   xmlns:zojax="http://namespaces.zope.org/zojax">
+
+  <!-- resources -->
+  <zojax:resourcedirectory
+     name="jquery-ui"
+     directory="resources"
+     mapping=".css:zrt" />
+
+  <zojax:resourceinclude
+     name="jquery.ui.js"
+     library="jquery-plugins" require="jquery"
+     type="javascript" path="jquery-ui/js/jquery.ui.js"
+     compress="no" />
+     
+  <zojax:resourceinclude
+     name="jquery.ui.css"
+     library="jquery-plugins" require="jquery"
+     type="stylesheet" path="jquery-ui/css/ui-lightness/jquery.ui.css"
+     compress="no" />
+       
+
+</configure>

@@ -11,7 +11,7 @@
 # FOR A PARTICULAR PURPOSE.
 #
 ##############################################################################
-"""Setup for zojax.jquery.json package
+"""Setup for zojax.jquery.ui package
 
 $Id$
 """
@@ -24,9 +24,9 @@ def read(*rnames):
 version='0'
 
 
-setup(name='zojax.jquery.json',
+setup(name='zojax.jquery.ui',
       version=version,
-      description="JQuery json Plugin",
+      description="JQuery ui Plugin",
       long_description=(
           'Detailed Documentation\n' +
           '======================\n'
