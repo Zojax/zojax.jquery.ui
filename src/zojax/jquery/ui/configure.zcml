@@ -18,6 +18,7 @@
      name="jquery.ui.css"
      library="jquery-plugins" require="jquery"
      type="stylesheet" path="jquery-ui/css/ui-lightness/jquery.ui.css"
+     standalone="yes"
      compress="no" />
        
 
